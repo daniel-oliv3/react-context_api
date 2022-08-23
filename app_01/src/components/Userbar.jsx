@@ -1,4 +1,4 @@
-
+import Login from "./Login";
 
 export default function Userbar() {
     return (
@@ -6,6 +6,7 @@ export default function Userbar() {
         <hr />
             Usuário: [usuario]
         <hr />
+        <Login/>
       </>
     );
   }
