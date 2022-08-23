@@ -6,6 +6,11 @@
 npx create-react-app app_01
 ```
 
+**Roda o projeto**
+```
+npm start
+```
+
 
 
 
