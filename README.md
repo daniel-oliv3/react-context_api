@@ -2,7 +2,7 @@
 
 **Context** (Contexto)
 
-**Context** disponibiliza uma forma de passar dados entre a **árvore de componentes** sem precisar passar props manualmente em cada nível.
+**Context** disponibiliza uma forma de passar dados entre a **árvore de componentes** sem precisar passar **props** manualmente em cada nível.
 
 Em uma aplicação típica do **React**, os dados são passados de cima para baixo (de pai para filho) via **props**, mas esse uso pode ser complicado para certos tipos de props (como preferências locais ou tema de UI), que são utilizadas por muitos **componentes** dentro da aplicação. **Context** fornece a forma de compartilhar dados como esses, entre todos componentes da mesma **árvore de componentes**, sem precisar passar explicitamente **props** entre cada nível..
 

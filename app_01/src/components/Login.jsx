@@ -1,9 +1,11 @@
 
 
-export default function Login() {
+export default function Login({login}) {
     return (
       <>
-        <button>Login</button>
+        <button onClick={() => {
+          login('Sapup3');
+        }}>Login</button>
       </>
     );
   }

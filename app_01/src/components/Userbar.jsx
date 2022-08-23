@@ -1,12 +1,12 @@
 import Login from "./Login";
 
-export default function Userbar() {
+export default function Userbar({usuario, login}) {
     return (
       <>
         <hr />
-            Usuário: [usuario]
+            Usuário: <strong>{usuario}</strong>
         <hr />
-        <Login/>
+        <Login login={login}/>
       </>
     );
   }
