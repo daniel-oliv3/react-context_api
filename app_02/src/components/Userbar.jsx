@@ -4,7 +4,8 @@ export default function Userbar({usuario, login}) {
     return (
       <>
         <hr />
-            Usuário: <strong>{usuario}</strong>
+            <p>Usuário: [usuario]</p>
+            <p>Perfil: [perfil]</p>
         <hr />
         <Login login={login}/>
       </>
