@@ -21,6 +21,8 @@ npx create-react-app app_01
 npm start
 ```
 
+### 2 - SOLUÇÃO COM CONTEXT API.
+- Ex: app_02
 
 
 
