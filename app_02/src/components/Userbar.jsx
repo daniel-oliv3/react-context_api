@@ -4,11 +4,16 @@ import { useContext } from "react";
 import Login from "./Login";
 
 export default function Userbar() {
+
+  const AuthDados = useContext(AuthContext);
+
+  //console.log(AuthDados);
+
     return (
       <>
         <hr />
-            <p>Usuário: [usuario]</p>
-            <p>Perfil: [perfil]</p>
+            <p>Usuário:{AuthDados.usuario}</p>
+            <p>Perfil: {AuthDados.perfil}</p>
         <hr />
         <Login />
       </>
