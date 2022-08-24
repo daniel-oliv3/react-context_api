@@ -13,7 +13,7 @@ export function AuthProvider({children}){
 
 
     return (
-        <AuthContext.Provider>
+        <AuthContext.Provider value={AuthDados}>
             {children}
         </AuthContext.Provider>
     )
