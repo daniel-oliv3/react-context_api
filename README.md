@@ -24,6 +24,8 @@ npm start
 ### 2 - SOLUÇÃO COM CONTEXT API.
 - Ex: app_02
 
+### 3 - ALTERAÇÃO DE DADOS COM CONTEXT API.
+- Ex: app_03
 
 
 
