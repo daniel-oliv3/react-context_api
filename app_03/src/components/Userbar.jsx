@@ -7,13 +7,13 @@ export default function Userbar() {
 
   const AuthDados = useContext(AuthContext);
 
-  //console.log(AuthDados);
+  console.log(AuthDados);
 
     return (
       <>
         <hr />
-            <p>Usuário:{AuthDados.usuario}</p>
-            <p>Perfil: {AuthDados.perfil}</p>
+            <p>Usuário: {AuthDados.usuario.usuario}</p>
+            <p>Perfil: {AuthDados.usuario.perfil}</p>
         <hr />
         <Login />
       </>
