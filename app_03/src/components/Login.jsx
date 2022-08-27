@@ -1,11 +1,10 @@
+import AuthContext from "../providers/AuthContext";
+import { useContext } from "react";
 
-
-export default function Login({login}) {
+export default function Login() {
     return (
       <>
-        <button onClick={() => {
-          login('Sapup3');
-        }}>Login</button>
+        <button>Login</button>
       </>
     );
   }
