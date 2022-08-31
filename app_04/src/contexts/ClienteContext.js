@@ -7,7 +7,7 @@ export function ClienteProvider({children}){
 
     //Dados do cliente
     const dados_cliente = {
-        usuario: 'Priscila Andrade',
+        nome: 'Priscila Andrade',
         email: 'priscila@gmail.com'
     }
 

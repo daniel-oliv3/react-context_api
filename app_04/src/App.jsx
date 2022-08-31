@@ -12,13 +12,10 @@ export default function App() {
     <>
       <h1>React Múltiplos Context APIs</h1>
 
-
       <UsuarioProvider>
         <Usuario />
       </UsuarioProvider>
-
-      
-      
+           
       <ClienteProvider>
         <Cliente />
       </ClienteProvider>
