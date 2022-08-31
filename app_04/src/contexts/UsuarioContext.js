@@ -1,7 +1,7 @@
 import { createContext } from "react";
 
 
-const UsuarioContext = createContext();
+const UsuarioContext = createContext()
 
 export function UsuarioProvider({children}){
 
@@ -12,9 +12,9 @@ export function UsuarioProvider({children}){
     }
 
     return (
-        <UsuarioProvider value={dados_usuario}>
+        <UsuarioContext.Provider value={dados_usuario}>
             {children}
-        </UsuarioProvider>
+        </UsuarioContext.Provider>
     )
 }
 

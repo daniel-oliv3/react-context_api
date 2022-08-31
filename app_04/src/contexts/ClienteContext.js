@@ -1,20 +1,20 @@
 import { createContext } from "react";
 
 
-const ClienteContext = createContext();
+const ClienteContext = createContext()
 
 export function ClienteProvider({children}){
 
     //Dados do cliente
     const dados_cliente = {
         usuario: 'Priscila Andrade',
-        perfil: 'user'
+        email: 'priscila@gmail.com'
     }
 
     return (
-        <ClienteProvider value={dados_cliente}>
+        <ClienteContext.Provider value={dados_cliente}>
             {children}
-        </ClienteProvider>
+        </ClienteContext.Provider>
     )
 }
 
